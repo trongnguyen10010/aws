@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mynetwork="burn-dis-bridge4" &&
-db_vm="db4" &&
-web_vm="web4" &&
+mynetwork="burn-dis-bridge" &&
+db_vm="db" &&
+web_vm="web" &&
 
 docker network create -d bridge $mynetwork &&
 
