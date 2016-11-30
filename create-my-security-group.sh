@@ -1,2 +1,5 @@
 #!/bin/bash
-aws ec2 create-security-group --group-name "trump-wall" --description "we got the fire"
+gname="trump-wall"
+gdes="we got the fire"
+
+aws ec2 create-security-group --group-name $gname --description $gdes
