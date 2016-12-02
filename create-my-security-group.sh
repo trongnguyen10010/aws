@@ -1,6 +1,6 @@
 #!/bin/bash
-gname="trump-wall3"
-gdes="we got the fire"
+gname="trump-wall"
+gdes="stopping china"
 
 aws ec2 create-security-group --group-name $gname --description $gdes
 
